@@ -7,7 +7,7 @@ Step2: Pre-processing of Data: Data has pre-processed by removing links, whitesp
 Step3: Train-Test Split: After Pre-processing perform the train_test split as 90 10
 Step4: Tokenization: After splitting data tokenize the train data by removing spaces and newline characters at word as well as sentence level.
 Step5: Create Vocabulary: Create vocabulary by getting the word counts of each word in train data
-Step6: Create n-gram model: create n-gram model for every word in train_data by adding the <s> ad <e> delimiters.
+Step6: Create n-gram model: create n-gram model for every word in train_data by adding the "<s> and "<e>" delimiters.
 Step7: Calculate the probability of occurance of each word at the sentene level for different sentences.
 Step8: Evaluate by perplexity: Evaluate the model by calcualting the perplexity of the model developed.
 Step9: Calcualte probabilities: Calcualte the probabilities for different n-grams
